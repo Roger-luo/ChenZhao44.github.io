@@ -89,7 +89,7 @@ This is the most complex part of the simplification scheme. For more detail, one
 
 There is a property for any ZX-diagram of a quantum circuit. That is we can define a g-flow on it. With a g-flow, we can know the order of all spiders. The rules we used for simplifying the ZX-diagram will preserve this good property. It gives us the possibility to extracting circuits from simplified ZX-diagrams. 
 
-Moreover, any graph-like ZX-diagram are CNOT + H circuits locally. We can extract these CNOT circuits with gaussian elimination over F_2. Together with the remaining H gates, CZ gates and Z-rotations, we get a circuit equivilant to the original one.
+Moreover, any graph-like ZX-diagram are CNOT + H circuits locally. We can extract these CNOT circuits with gaussian elimination over $F_2$. Together with the remaining H gates, CZ gates and Z-rotations, we get a circuit equivilant to the original one.
 
 ## Demo
 
